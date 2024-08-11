@@ -1,0 +1,19 @@
+.container-grow {
+    display: flex;
+    gap: 10px; 
+}
+
+.item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.item-1 {
+    flex-grow: 2; 
+}
+
+.item-2,
+.item-3 {
+    flex-grow: 1;
+}
